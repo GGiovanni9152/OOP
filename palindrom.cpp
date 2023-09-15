@@ -58,8 +58,11 @@ bool ispalindrom(std::string str)
     {
         return false;
     }
+
     delete_separators(str);
+    
     to_lowercase(str);
+    
     for (int index = 0; index < str.size(); ++index)
     {
         if (str[index] != str[str.size() - index - 1])
