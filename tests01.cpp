@@ -7,7 +7,7 @@ TEST(test_01, basic_test_set)
 
     bool test = ispalindrom(input);
 
-    ASSERT_TRUE(test == true);
+    EXPECT_TRUE(test);
 }
 
 TEST(test_02, basic_test_set)
@@ -16,7 +16,7 @@ TEST(test_02, basic_test_set)
 
     bool test = ispalindrom(input);
 
-    ASSERT_TRUE(test == true);
+    EXPECT_TRUE(test);
 }
 
 TEST(test_03, basic_test_set)
@@ -25,7 +25,7 @@ TEST(test_03, basic_test_set)
 
     bool test = ispalindrom(input);
     
-    ASSERT_TRUE(test == false);
+    EXPECT_FALSE(test);
 }
 
 TEST(test_04, basic_test_set)
@@ -34,7 +34,7 @@ TEST(test_04, basic_test_set)
 
     bool test = ispalindrom(input);
     
-    ASSERT_TRUE(test == true);
+    EXPECT_TRUE(test);
 }
 
 TEST(test_05, basic_test_set)
@@ -43,7 +43,7 @@ TEST(test_05, basic_test_set)
 
     bool test = ispalindrom(input);
     
-    ASSERT_TRUE(test == false);
+    EXPECT_FALSE(test);
 }
 
 TEST(test_06, basic_test_set)
@@ -52,7 +52,7 @@ TEST(test_06, basic_test_set)
 
     bool test = ispalindrom(input);
     
-    ASSERT_TRUE(test == true);
+    EXPECT_TRUE(test);
 }
 
 TEST(test_07, basic_test_set)
@@ -61,7 +61,7 @@ TEST(test_07, basic_test_set)
 
     bool test = ispalindrom(input);
     
-    ASSERT_TRUE(test == true);
+    EXPECT_TRUE(test);
 }
 
 TEST(test_08, basic_test_set)
@@ -70,7 +70,7 @@ TEST(test_08, basic_test_set)
 
     bool test = ispalindrom(input);
     
-    ASSERT_TRUE(test == false);
+    EXPECT_FALSE(test);
 }
 
 TEST(test_09, basic_test_set)
@@ -79,7 +79,7 @@ TEST(test_09, basic_test_set)
 
     bool test = ispalindrom(input);
     
-    ASSERT_TRUE(test == true);
+    EXPECT_TRUE(test);
 }
 
 int main(int argc, char **argv)
