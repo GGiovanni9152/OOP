@@ -1,0 +1,5 @@
+/home/giovanni/OOP/Laba1/build/CMakeFiles/laba01.dir
+/home/giovanni/OOP/Laba1/build/CMakeFiles/tests01.dir
+/home/giovanni/OOP/Laba1/build/CMakeFiles/test.dir
+/home/giovanni/OOP/Laba1/build/CMakeFiles/edit_cache.dir
+/home/giovanni/OOP/Laba1/build/CMakeFiles/rebuild_cache.dir

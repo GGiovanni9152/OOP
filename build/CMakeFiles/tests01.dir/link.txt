@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/tests01.dir/tests01.cpp.o CMakeFiles/tests01.dir/palindrom.cpp.o -o tests01  /usr/local/lib/libgtest.a 
