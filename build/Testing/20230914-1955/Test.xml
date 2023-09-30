@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20230914-1955-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="VB"
+	OSRelease="6.2.0-32-generic"
+	OSVersion="#32~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 18 10:40:13 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="8192"
+	NumberOfLogicalCPU="1"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="2239"
+	TotalPhysicalMemory="7551"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2496.03"
+	>
+	<Testing>
+		<StartDateTime>Sep 14 22:56 MSK</StartDateTime>
+		<StartTestTime>1694721404</StartTestTime>
+		<TestList>
+			<Test>./BASIC</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>BASIC</Name>
+			<Path>.</Path>
+			<FullName>./BASIC</FullName>
+			<FullCommandLine>/home/giovanni/OOP/Laba1/build/tests01</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0252002</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/giovanni/OOP/Laba1/build/tests01</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVlDtvwyAQgHf/ihubIcjPqEvnDpVaKWomy4r8IDGSDZGBNPn3wdBmQFQ+38IdfHd8C5Rvz6hgrzln/AyvoKhUEk6TGH8LkJqZlUTl9hkVvA+iqQcHUH5lk+Aj5QamaqsvHpw4zg6ds2OcRCXsD59go/rbJE0tWXu0lRlkGBdfH/8y8BLDKDeL9zkOlFD1sImW8DSklyL0fAapl67Ty0J6GULPZ5B62Tq9PKSXI/R8BqmXr9MrQnoFQs9nkHrFOr1dSG+H0POZBT1CSPTdU5jmWpxAmdyeCa0uWsFPLc3ZKK60A8l4S4GZp35rKe2kg3vT2ouhm7uTOM2huduP4gGtj0qE====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 14 22:56 MSK</EndDateTime>
+		<EndTestTime>1694721404</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/laba01.dir/laba01.cpp.o CMakeFiles/laba01.dir/palindrom.cpp.o -o laba01 

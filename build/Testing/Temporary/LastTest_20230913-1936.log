@@ -1,0 +1,72 @@
+Start testing: Sep 13 23:08 MSK
+----------------------------------------------------------
+1/1 Testing: BASIC
+1/1 Test: BASIC
+Command: "/home/giovanni/OOP/Laba1/build/tests01"
+Directory: /home/giovanni/OOP/Laba1/build
+"BASIC" start time: Sep 13 23:08 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 8 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from test_01
+[ RUN      ] test_01.basic_test_set
+[       OK ] test_01.basic_test_set (0 ms)
+[----------] 1 test from test_01 (0 ms total)
+
+[----------] 1 test from test_02
+[ RUN      ] test_02.basic_test_set
+[       OK ] test_02.basic_test_set (0 ms)
+[----------] 1 test from test_02 (0 ms total)
+
+[----------] 1 test from test_03
+[ RUN      ] test_03.basic_test_set
+[       OK ] test_03.basic_test_set (0 ms)
+[----------] 1 test from test_03 (0 ms total)
+
+[----------] 1 test from test_04
+[ RUN      ] test_04.basic_test_set
+[       OK ] test_04.basic_test_set (0 ms)
+[----------] 1 test from test_04 (0 ms total)
+
+[----------] 1 test from test_05
+[ RUN      ] test_05.basic_test_set
+[       OK ] test_05.basic_test_set (0 ms)
+[----------] 1 test from test_05 (0 ms total)
+
+[----------] 1 test from test_06
+[ RUN      ] test_06.basic_test_set
+[       OK ] test_06.basic_test_set (0 ms)
+[----------] 1 test from test_06 (0 ms total)
+
+[----------] 1 test from test_07
+[ RUN      ] test_07.basic_test_set
+[       OK ] test_07.basic_test_set (0 ms)
+[----------] 1 test from test_07 (0 ms total)
+
+[----------] 1 test from test_08
+[ RUN      ] test_08.basic_test_set
+/home/giovanni/OOP/Laba1/tests01.cpp:46: Failure
+Value of: ispalindrom("-111") == false
+  Actual: false
+Expected: true
+
+[  FAILED  ] test_08.basic_test_set (0 ms)
+[----------] 1 test from test_08 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 8 test suites ran. (0 ms total)
+[  PASSED  ] 7 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] test_08.basic_test_set
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"BASIC" end time: Sep 13 23:08 MSK
+"BASIC" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 13 23:08 MSK
