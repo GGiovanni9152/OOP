@@ -1,0 +1,22 @@
+cmake_minimum_required(VERSION 3.10)
+project(lab_03)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+#include(CTest)
+
+enable_testing()
+add_subdirectory(googletest)
+set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
+#set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
+
+include_directories(${INCLUDE_DIR})
+#file(GLOB_RECURSE SOURCES LIST_DIRECTORIES false ${SOURCE_DIR}/*.cpp)
+#add_library(lab_03_lib ${SOURCES})
+
+add_executable(lab_03_exe main.cpp)
+target_link_libraries(lab_03_exe PRIVATE gtest_main gmock_main)
+add_executable(test_03_exe test.cpp)
+target_link_libraries(test_03_exe PRIVATE gtest_main gmock_main)
+
+include(GoogleTest)
+gtest_add_tests(TARGET test_03_exe)
