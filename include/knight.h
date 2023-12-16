@@ -1,11 +1,11 @@
 #pragma once
 #include "npc.h"
 
-class Belka : public NPC
+class Knight : public NPC
 {
     public:
-        Belka(int x, int y);
-        Belka(std::istream &is);
+        Knight(int x, int y);
+        Knight(std::istream &is);
 
         void print() override;
         void save(std::ostream &os) override;
@@ -14,8 +14,7 @@ class Belka : public NPC
         bool fight(std::shared_ptr<Belka> other) override;
         bool fight(std::shared_ptr<Pegas> other) override;
 
+        friend std::ostream& operator<<(std::ostream &os, Knight &knight);
+
         bool accept(std::shared_ptr<NPC> visitor) override;
-
-        friend std::ostream& operator<< (std::ostream&os, Belka &belka);
-
 };
